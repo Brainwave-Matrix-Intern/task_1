@@ -1,73 +1,51 @@
-import a12 from "../assets/Images/a12.jpg";
+import p1 from "../assets/Images/p1.jpg";
+import p2 from "../assets/Images/p2.jpg";
+import p3 from "../assets/Images/p3.jpg";
+import p4 from "../assets/Images/p4.jpg";
 
-export const MAIN_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const MAIN_CONTENT = `As a passionate web developer with a strong foundation in both programming and visual design, I am driven by the challenge of creating innovative and user-centric digital experiences. My expertise lies in bridging the gap between functionality and aesthetics, ensuring that every project I undertake is not only technically sound but also visually compelling. My goal is to continuously push the boundaries of what’s possible in web development, delivering solutions that are both elegant and effective.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated web developer with a keen eye for design and a deep understanding of the latest technologies. My academic background in computer science, coupled with hands-on experience in software development, has equipped me with a unique blend of technical and creative skills. I thrive in environments where I can experiment with new ideas and collaborate with others to solve complex problems. Whether it's developing a responsive website or designing a user-friendly interface, I am committed to creating digital solutions that leave a lasting impact. When I’m not coding, I enjoy exploring new design trends, learning emerging technologies, and contributing to projects that challenge my skills and creativity.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "June - August 2023",
+    role: "Software Developer Intern",
+    company: "Xylexa Inc.",
+    description: `Gained experience in software engineering process improvements and best practices. Worked on tasks related to natural language processing (NLP), digital image processing (DIP), and machine learning (ML). Primarily focused on model training using image datasets such as DIACOMS.`,
+    technologies: ["Python", "Flask", "HTML", "CSS"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: a12,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title: "Responsive Portfolio Showcase",
+    image: p1,
+    description: "A responsive and visually appealing personal portfolio website showcasing projects, skills, and experience. The design emphasizes user experience and accessibility, ensuring an optimal viewing experience across various devices.",
+    technologies: ["React JS", "Tailwind CSS"],
   },
   {
-    title: "Task Management App",
-    image: a12,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    title: "Dynamic E-Learning Hub",
+    image: p3,
+    description: "A comprehensive online learning platform that offers courses, quizzes, and user progress tracking. The platform is designed with a focus on interactivity and ease of use, catering to both students and instructors.",
+    technologies: ["React JS", "Node.js", "MongoDB", "Express"],
   },
   {
-    title: "Portfolio Website",
-    image: a12,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    title: "Smart Personal Finance Manager",
+    image: p2,
+    description: "A user-friendly application designed to help individuals manage their personal finances, including budgeting, expense tracking, and financial goal setting.",
+    technologies: ["React JS", "Node.js", "Firebase"],
   },
   {
-    title: "Blogging Platform",
-    image: a12,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    title: "Interactive E-Commerce Platform",
+    image: p4,
+    description: "An advanced e-commerce website featuring a user-friendly interface, secure payment integration, and a robust product management system, ensuring a smooth shopping experience for users.",
+    technologies: ["React JS", "Node.js", "Express", "MongoDB"],
   },
 ];
 
 export const CONTACT = {
-  address: "Chakalala, Rawalpindi, 46000",
+  address: "Chaklala, Rawalpindi, 46000",
   phoneNo: "+92 332 8101707",
   email: "mahwishza@gmail.com",
 };
