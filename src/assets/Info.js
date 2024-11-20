@@ -11,7 +11,7 @@ export const EXPERIENCES = [
   {
     year: "June - August 2023",
     role: "Software Developer Intern",
-    company: "Xylexa Inc.",
+    company: "Company ABC",
     description: `Gained experience in software engineering process improvements and best practices. Worked on tasks related to natural language processing (NLP), digital image processing (DIP), and machine learning (ML). Primarily focused on model training using image datasets such as DIACOMS.`,
     technologies: ["Python", "Flask", "HTML", "CSS"],
   },
@@ -45,7 +45,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Chaklala, Rawalpindi, 46000",
+  address: "Rawalpindi, Pakistan, 46000",
   phoneNo: "+92 332 8101707",
-  email: "mahwishza@gmail.com",
+  email: "xyz@gmail.com",
 };
